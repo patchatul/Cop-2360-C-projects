@@ -4,13 +4,13 @@ class FishWeight
 {
     static void Main()
     {
-        int Fish1 = 23;
-        int Fish2 = 10;
-        int Fish3 = 30;
-        int Fish4 = 15;
-        int Fish5 = 8;
-        float AverageFishWeight = (float) (Fish1 + Fish2 + Fish3 + Fish4 + Fish5) / 5;
-        string OneDecimalAverageFishWeight = AverageFishWeight.ToString("F1");
-        Console.WriteLine(OneDecimalAverageFishWeight);
+        int fish1 = 23;
+        int fish2 = 10;
+        int fish3 = 30;
+        int fish4 = 15;
+        int fish5 = 8;
+        float averageFishWeight = (float) (fish1 + fish2 + fish3 + fish4 + fish5) / 5;
+        string oneDecimalAverageFishWeight = averageFishWeight.ToString("F1");
+        Console.WriteLine(oneDecimalAverageFishWeight);
     }
 }
