@@ -16,21 +16,27 @@ class FeeByFeet
         string height_string_input = ReadLine();
         double height_input = Convert.ToDouble(height_string_input);
         //nested decision
+        // if (height_input < FIVE_FEET_HEIGHT)
+        // {
+        //     WriteLine($"Fee is $ {FEE_UNDER_FIVE}.");
+        // }
+        // else 
+        // {
+        //     if (height_input >= FIVE_FEET_HEIGHT && height_input <= EIGHT_FEET_HEIGHT)
+        //     {
+        //         WriteLine($"Fee is $ {FEE_FIVE_TO_EIGHT}.");
+        //     }
+        //     else if (height_input > EIGHT_FEET_HEIGHT){
+        //           WriteLine($"Fee is $ {FEE_ABOVE_EIGHT}.");  
+        //     }
+        // }
         if (height_input < FIVE_FEET_HEIGHT)
-        {
             WriteLine($"Fee is $ {FEE_UNDER_FIVE}.");
-        }
-        else 
-        {
+        else
             if (height_input >= FIVE_FEET_HEIGHT && height_input <= EIGHT_FEET_HEIGHT)
-            {
                 WriteLine($"Fee is $ {FEE_FIVE_TO_EIGHT}.");
-            }
-            else if (height_input > EIGHT_FEET_HEIGHT){
-                  WriteLine($"Fee is $ {FEE_ABOVE_EIGHT}.");  
-            }
-        }
-    }
-            
+            else
+                if (height_input > EIGHT_FEET_HEIGHT)
+                   WriteLine($"Fee is $ {FEE_ABOVE_EIGHT}.");                
+    }        
 }
-
