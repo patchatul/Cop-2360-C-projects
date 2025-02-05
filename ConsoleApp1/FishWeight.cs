@@ -1,4 +1,4 @@
-using System;
+/*using System;
 
 class FishWeight
 {
@@ -13,4 +13,4 @@ class FishWeight
         string oneDecimalAverageFishWeight = averageFishWeight.ToString("F1");
         Console.WriteLine(oneDecimalAverageFishWeight);
     }
-}
+}*/
