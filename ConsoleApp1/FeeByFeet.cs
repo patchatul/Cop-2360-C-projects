@@ -1,6 +1,6 @@
 using System;
 using static System.Console;
-class FeeByFeet
+/*class FeeByFeet
 {
     static void Main()
     {
@@ -39,4 +39,4 @@ class FeeByFeet
                 if (height_input > EIGHT_FEET_HEIGHT)
                    WriteLine($"Fee is $ {FEE_ABOVE_EIGHT}.");                
     }        
-}
+} */
