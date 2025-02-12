@@ -1,4 +1,4 @@
-using System;
+/*using System;
 using static System.Console;
 class CollectFishSizes
 {
@@ -11,7 +11,7 @@ class CollectFishSizes
         const double ENDLOOP = -1;
         Write("Enter size of fish: ");
         input_fish_size = Convert.ToDouble(ReadLine());
-        while(input_fish_size != -1)
+        while(input_fish_size != ENDLOOP)
         {
             fish_size += input_fish_size;
             ++total_fish_number;
@@ -24,4 +24,4 @@ class CollectFishSizes
         WriteLine("Total sizes of fish: " + fish_size);
         WriteLine("Average size of fish: " + average_fish_size);
     }
-}
+}*/
