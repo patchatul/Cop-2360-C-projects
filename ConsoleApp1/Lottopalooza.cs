@@ -1,4 +1,4 @@
-using System;
+/*using System;
 using static System.Console;
 
 class Lottopalooza
@@ -29,4 +29,4 @@ class Lottopalooza
         }        
         WriteLine("The date is " + DATE);
     }
-}
+}*/
