@@ -10,7 +10,7 @@ public static void Main()
    //pass inches user's input to method InchesToOunces
    //output weightInOunce
    double outputWeightInOunces = InchesToOunces(inches);
-   WriteLine("The weight of the stark is {0} ounces.", outputWeightInOunces);
+   WriteLine("The weight of the stork is {0} ounces.", outputWeightInOunces);
 }
 public static double InchesToOunces(double inches)
 {
