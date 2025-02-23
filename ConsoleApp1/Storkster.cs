@@ -6,16 +6,16 @@ class Storkester
 public static void Main()
 {
    Write("Enter stork's height in inches: ");
-   double inputHeight = Convert.ToDouble(ReadLine());
-   //pass inputHeight to method InchesToOunces
+   double inches = Convert.ToDouble(ReadLine());
+   //pass inches user's input to method InchesToOunces
    //output weightInOunce
-   double outputWeightInOunce = InchesToOunces(weightInOunce);
-   WriteLine($"The weight of the stork is {outputWeightInOunce}");
+   double outputWeightInOunces = InchesToOunces(inches);
+   WriteLine("The weight of the stark is {0} ounces.", outputWeightInOunces);
 }
-public static double InchesToOunces(double inputHeight)
+public static double InchesToOunces(double inches)
 {
     const double OUNCE = 2.77;
-    double weightInOunce = inputHeight * OUNCE;
+    double weightInOunce = inches * OUNCE;
     return weightInOunce;
 }
 }
