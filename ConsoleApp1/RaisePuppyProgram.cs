@@ -8,13 +8,13 @@ class RaisePuppyProgram
         Write("Enter your salary: $");//salary $97500
         double salary = Convert.ToDouble(ReadLine());
         double raisePercent = 0.042;
-        double raiseAmount = 3750;
-        SalaryRaisePercent(salary, raisePercent);
+        int raiseAmount = 3750;
+        RaisePuppy(salary, raisePercent);
         Write("\n");
-        SalaryRaiseAmount(salary, raiseAmount);
+        RaisePuppy(salary, raiseAmount);
     }
     //1st overloaded method w/ 2 parameters double salary, double raisePercent 0.042
-    private static double SalaryRaisePercent(double salary, double percent)
+    private static double RaisePuppy(double salary, double percent)
     {
         double salaryTimesPercent = salary * percent;
         double totalSalaryTimesPercent = salary + salaryTimesPercent;
@@ -24,7 +24,7 @@ class RaisePuppyProgram
         return totalSalaryTimesPercent;
     }  
     //2nd overloaded method w/ 2 parameters double salary, int raiseAmount add 3750
-    private static double SalaryRaiseAmount(double salary, double amount)
+    private static double RaisePuppy(double salary, int amount)
     {
         double salaryAddsAmount = salary + amount;
         WriteLine("The initial salary is $" + salary);
