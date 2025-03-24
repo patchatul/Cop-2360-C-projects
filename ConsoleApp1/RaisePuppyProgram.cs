@@ -1,4 +1,4 @@
-using System;
+/*using System;
 using static System.Console;
 
 class RaisePuppyProgram
@@ -33,4 +33,4 @@ class RaisePuppyProgram
         return salaryAddsAmount;
     }
 }
-// 2 overloaded methods w/ 2 parameters calculate raise to initial salary then display total salary
+// 2 overloaded methods w/ 2 parameters calculate raise to initial salary then display total salary */
