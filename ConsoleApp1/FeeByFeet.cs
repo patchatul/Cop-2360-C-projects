@@ -1,6 +1,6 @@
 using System;
 using static System.Console;
-/*class FeeByFeet
+class FeeByFeet
 {
     static void Main()
     {
@@ -36,7 +36,7 @@ using static System.Console;
             if (height_input >= FIVE_FEET_HEIGHT && height_input <= EIGHT_FEET_HEIGHT)
                 WriteLine($"Fee is $ {FEE_FIVE_TO_EIGHT}.");
             else
-                if (height_input > EIGHT_FEET_HEIGHT)
+                //prof says no nned for this if statement if (height_input > EIGHT_FEET_HEIGHT)
                    WriteLine($"Fee is $ {FEE_ABOVE_EIGHT}.");                
     }        
-} */
+} 

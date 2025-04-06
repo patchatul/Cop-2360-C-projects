@@ -1,4 +1,4 @@
-using System;
+/*using System;
 using static System.Console;
 
 class Scooter
@@ -75,3 +75,4 @@ class Program
     }
     
 }
+*/
